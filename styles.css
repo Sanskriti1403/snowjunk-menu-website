@@ -1,0 +1,92 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #ffcccb, #ffd8a8);
+    text-align: center;
+}
+
+/* Header Section */
+header {
+    background-color: #ff6666;
+    padding: 20px;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto 10px;
+    width: 150px;
+    height: auto;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Section Titles */
+h2 {
+    color: #ff4500;
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+/* Styled Font for About Us & Catering */
+.styled-heading {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    color: #d63384;
+    font-weight: bold;
+}
+
+.styled-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Menu Items */
+.menu-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.menu-item {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.menu-item img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    background-color: #ff6666;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
